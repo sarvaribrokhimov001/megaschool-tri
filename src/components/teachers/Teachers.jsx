@@ -25,11 +25,11 @@ export default function Teachers() {
   ];
 
   return (
-    <section id="teachers" className="bg-gray-900">
+    <section id="teachers" className="bg-gray-900 border-3 border-secondary">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center">
-          <span className="text-blue-600 font-semibold"> OUR TEAM </span>
-          <h2 className="text-4xl font-bold mt-3"> Meet Our Teachers </h2>
+          <span className="text-secondary text-2xl font-bold"> OUR TEAM </span>
+          <h2 className="text-4xl font-bold text-secondary mt-3"> Meet Our Teachers </h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">

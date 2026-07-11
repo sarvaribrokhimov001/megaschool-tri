@@ -41,12 +41,12 @@ export default function Course() {
   ];
 
   return (
-    <section id="courses bg-gray-900" className="bg-gray-900">
+    <section id="courses bg-gray-900" className="bg-gray-900 border-3 border-secondary">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center">
-          <span className="text-blue-600 font-semibold"> OUR COURSES </span>
-          <h2 className="text-4xl font-bold mt-3"> Popular Courses </h2>
-          <p className="text-gray-600 mt-4"> Choose your favorite course and start your career today. </p>
+          <span className="text-secondary text-2xl font-bold"> OUR COURSES </span>
+          <h2 className="text-4xl text-secondary font-bold mt-3"> Popular Courses </h2>
+          <p className="text-secondary font-bold mt-4"> Choose your favorite course and start your career today. </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">

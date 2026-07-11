@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="pt-32 bg-gray-900 min-h-screen flex items-center">
+    <section className="pt-40 bg-gray-900 border-3 border-secondary min-h-[800px] flex items-center">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
         <div className="text-white">
           <span className="bg-inherit text-secondary border-3 border-secondary px-4 py-2 rounded-full font-bold"> #1 Learning Center </span>
