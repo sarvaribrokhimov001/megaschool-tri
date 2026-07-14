@@ -27,7 +27,7 @@ export default function Navbar() {
         <ul className="hidden md:flex gap-8 font-medium">
           {links.map((item) => (
             <li key={item.title}>
-              <a href={item.href} className="hover:text-blue-600 w-25 hover:font-bold duration-300 text-secondary text-2xl transition"> {item.title} </a>
+              <Link href={item.href} className="hover:text-gray-700 w-25 font-bold duration-300 text-secondary text-2xl transition"> {item.title} </Link>
             </li>
           ))}
         </ul>

@@ -22,9 +22,9 @@ export default function About() {
 
           <div className="grid grid-cols-2 gap-6 mt-10">
             {data.map((item) => (
-              <div key={item.title} className="bg-gray-800 rounded-xl shadow-md p-6">
-                <h3 className="text-3xl font-bold text-secondary"> {item.number} </h3>
-                <p className="mt-2 text-secondary font-bold"> {item.title} </p>
+              <div key={item.title} className="bg-gray-800 rounded-xl shadow-md p-6 hover:bg-secondary transition-all duration-300 group">
+                <h3 className="text-3xl font-bold text-secondary group-hover:text-gray-800"> {item.number} </h3>
+                <p className="mt-2 text-secondary font-bold group-hover:text-gray-800"> {item.title} </p>
               </div>
             ))}
           </div>

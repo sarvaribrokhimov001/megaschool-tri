@@ -3,25 +3,36 @@ import TeacherCard from "./TeacherCard";
 export default function Teachers() {
   const teachers = [
     {
-      name: "John Smith",
+      name: "Mr.Dilshod",
       subject: "Frontend Mentor",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image: "/images/Mr__Dilshod.jpg",
     },
     {
-      name: "Emily Brown",
-      subject: "IELTS Instructor",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
+      name: "Mr.Ibrokhimov",
+      subject: `IELTS Instructor`,
+      result: `IELTS result Overall: 9`,
+      image: "/images/Mr__Ibrokhimov.jpg",
     },
     {
-      name: "Michael Lee",
+      name: "Mr.Olimjon",
       subject: "Backend Mentor",
-      image: "https://randomuser.me/api/portraits/men/55.jpg",
+      image: "/images/Mr__Olimjon.jpg",
     },
     {
-      name: "Sarah Wilson",
+      name: "Mr.Otabek",
       subject: "Mathematics Teacher",
-      image: "https://randomuser.me/api/portraits/women/68.jpg",
+      image: "/images/Mr__Otabek.jpg",
     },
+    {
+      name: "Mr.Timur",
+      subject: "General English",
+      image: "/images/Mr__Timur.jpg",
+    },
+    {
+      name: "MS.Madina",
+      subject: "Mother Tongue Teacher",
+      image: "/images/MS__Madina.webp",
+    }
   ];
 
   return (
@@ -32,7 +43,7 @@ export default function Teachers() {
           <h2 className="text-4xl font-bold text-secondary mt-3"> Meet Our Teachers </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
+        <div className="flex flex-wrap justify-center gap-8 mt-14 w-[1500px]">
           {teachers.map((teacher) => (
             <TeacherCard key={teacher.name} {...teacher} />
           ))}

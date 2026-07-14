@@ -5,7 +5,7 @@ const results = [
   { number: "25+", title: "Teachers" },
 ];
 
-export default function Results() {
+export default function Result() {
   return (
     <section id="results" className="bg-gray-900 text-secondary border-3 border-secondary">
       <div className="max-w-7xl mx-auto px-6">

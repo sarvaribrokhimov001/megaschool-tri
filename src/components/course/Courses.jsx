@@ -1,6 +1,6 @@
 import CourseCard from "./CourseCard";
 
-export default function Course() {
+export default function Courses() {
   const courses = [
     {
       title: "Frontend Development",
